@@ -1,0 +1,58 @@
+body{
+  background-color: black;
+}
+
+
+
+
+img.lands{
+	width: 100vw;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+div.title{
+	color: white;
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+
+div.menu{
+	resize: both;
+}
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu p {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu div {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
