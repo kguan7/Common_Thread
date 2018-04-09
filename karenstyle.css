@@ -1,7 +1,27 @@
-body{
+body, html{
+  height: 100%;
+  margin: 0;
   background-color: black;
+  overflow: auto;
 }
 
+.bg{
+    background-image: url(myprairie.png);
+
+    /* Full height */
+    height: 95%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+img.items{
+    height: 100px;
+}
 
 
 
@@ -12,47 +32,333 @@ img.lands{
 	left: 0px;
 }
 
-div.title{
-	color: white;
+img.title{
 	position: absolute;
-	top: 5px;
+	top: 20px;
 	left: 20px;
+    width: 175px;
 }
 
-div.menu{
-	resize: both;
-}
-
-div.scrollmenu {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
+.next{
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    top: 10px;
+    right: 50px;
+    background-color: white;
+
+}
+
+.previous{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    background-color: white;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+
+.firstrow{
+    margin-top: -40px;
+}
+
+div.first{
+    float: left;
+    margin-left: 30px;
+    
+}
+
+div.item1{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 150px;
+
+}
+
+#surfboard{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 90px;
+
+}
+
+#jackelope{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: -140px;
+    margin-top: 60px
+}
+
+div.item2{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 60px
+
+
+}
+
+#windmill{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 60px
+}
+
+#dog{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 210px;
+    margin-top: 60px
+}
+
+
+div.item3{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 110px;
+    margin-top: 90px
+
+
+}
+
+#deer{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 157px;
+    margin-top: 100px
+}
+
+#jump{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 70px
+}
+
+#plant{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 70px
+
+}
+
+div.item4{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 90px
+
+
+}
+
+
+#frog{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 100px
+
+
+}
+
+#bug{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 100px
+
+
+}
+
+#otter{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 60px
+
+
+}
+
+div.item5{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 90px
+
+
+}
+
+
+#woodpecker{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 220px;
+    margin-top: 90px
+
+
+}
+
+div.item6{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 90px
+
+
+}
+
+#pina{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 165px;
+    margin-top: 90px
+
+
+}
+
+#balloon{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 161px;
+    margin-top: 20px
+
+
+}
+
+#salamander{
+
+    margin-top: 120px
+
+
+}
+
+#flower{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: 80px
+
+
+}
+
+#towel{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: -30px
+
+
+}
+
+#fire{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: 140px;
+    margin-top: -30px
+
+
+}
+
+#leg{
+    width: 70px;
+    height: 50px;
+    float: left;
+    margin-left: -220px;
+    margin-top: 120px
+
+
+}
+
+#beach{
+  
+    margin-left: -140px;
+    
+
+
+}
+
+#pineapple{
+  
+    margin-left: 100px;
+    margin-top: 100px
+    
+
+
+}
+
+
+
+/*div.scrollmenu {
+    
+    overflow: scroll;
+    white-space: nowrap;
+    height: 900px;
+    position: absolute;
+    top: 0px;
   
 }
 
-div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
 
-div.scrollmenu p {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
 
 div.scrollmenu div {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px;
+    padding: 10px;
     text-decoration: none;
 }
+*/
+
+/* width 
+::-webkit-scrollbar {
+    height: 20px;
+}
+
+/* Track 
+::-webkit-scrollbar-track {
+    background: pink; 
+    
+}
+
+/* Handle 
+::-webkit-scrollbar-thumb {
+    background: #ee42f4; 
+}
+

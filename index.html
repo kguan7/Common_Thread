@@ -8,60 +8,308 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Quiet spaces</title>
   <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+
+  $( function() {
+    $( ".drag").draggable();
+  } );
+  
+  </script>
 </head>
 
 <body>
 
-  
-  <div id="beach">
-     <img src="img/beach.png" class="lands">
-  </div>
-    
-  <div class="title">
-    <p>QUIET SPACES</p>
-  </div>  
-
-<div class="menu">
-    <img src="img/starfish.png">
-</div>
-   
- <br>
 <!--
-  <div class="scrollmenu">
-    <a href="#home">Home</a>
-    <p> testing</p>
-    <div>
-      <img src="img/koi.png">
-    </div>
-    <div>
-      <img src="img/towel.png">
-    </div>
-        <div>
-      <img src="img/koi.png">
-    </div>
-    <div>
-      <img src="img/towel.png">
-    </div>
-        <div>
-      <img src="img/koi.png">
-    </div>
-    <div>
-      <img src="img/towel.png">
-    </div>
-        <div>
-      <img src="img/koi.png">
-    </div>
-    <div>
-      <img src="img/towel.png">
-    </div>
-        <div>
-      <img src="img/koi.png">
-    </div>
-    <div>
-      <img src="img/towel.png">
-    </div>
+  <div>
+     <img src="img/myprairie.png" class="lands" ">
   </div>
 -->
+
+<div class="bg"></div>
+
+  <div>
+    <img src="img/title1.png" class="title">
+  </div>  
+
+<div class="next">
+      <a href="beach/woods/cove/pond/index.html" class="next round">&#8592;</a> 
+</div>
+
+<div class="previous">
+      <a href="beach/index.html" class="next round">&#8594;</a> 
+</div>
+
+
+<!--draggable-->
+
+<div class="drag first firstrow">
+    <img src="img/ornaments.png" class="items" >
+</div>
+
+<div id= "surfboard" class="drag firstrow item1">
+    <img src="img/surfboard.png" class="items">
+</div>
+
+<div class="drag firstrow item1">
+    <img src="img/dragonfly.png" class="items">
+</div>
+
+<div class="drag firstrow item1">
+    <img src="img/butterfly.gif" class="items">
+</div>
+
+<div class="drag firstrow item1">
+    <img src="img/owl.gif" class="items">
+</div>
+
+<br>
+
+<!--secondrow-->
+<div id= "jackelope" class="drag first">
+    <img src="img/jackelope.png" class="items" >
+</div>
+
+<div class="drag item2">
+    <img src="img/moon.gif" class="items">
+</div>
+
+<div id= "windmill" class="drag">
+    <img src="img/windmill.png" class="items">
+</div>
+
+<div class="drag item2">
+    <img src="img/biplane.png" class="items">
+</div>
+
+<div id= "dog" class="drag item2">
+    <img src="img/prairiedog.png" class="items">
+</div>
+
+
+<!--thirdrow-->
+<div id= "deer" class="drag">
+    <img src="img/deer.png" class="items" >
+</div>
+
+<div class="drag item3">
+    <img src="img/horse.png" class="items">
+</div>
+
+<div class="drag item3">
+    <img src="img/buffalo.png" class="items">
+</div>
+
+<div id="jump" class="drag item3">
+    <img src="img/dogjumping.gif" class="items">
+</div>
+
+<div id= "plant" class="drag item3">
+    <img src="img/plant.png" class="items" style="width: 150px; height: 150px;">
+</div>
+
+<!--fourthrow-->
+<div id= "frog" class="drag item4" style="opacity: 0">
+    <img src="img/frog.png" class="items" >
+</div>
+
+<div id= "bug" class="drag item4">
+    <img src="img/bug.png" class="items">
+</div>
+
+<div class="drag item4">
+    <img src="img/turtle.png" class="items">
+</div>
+
+<div id="duck" class="drag item4">
+    <img src="img/duck.png" class="items">
+</div>
+
+<div id= "otter" class="drag item4">
+    <img src="img/otter.gif" class="items" style="width: 150px; height: 150px;">
+</div>
+
+<div id= "frog" class="drag item4">
+    <img src="img/frog.png" class="items" >
+</div>
+
+<!--fifthrow-->
+
+
+<div id= "woodpecker" class="drag ">
+    <img src="img/woodpecker.png" class="items" >
+</div>
+
+<div id= "crow" class="drag item5">
+    <img src="img/crow.gif" class="items">
+</div>
+
+<div class="drag item5">
+    <img src="img/bug.gif" class="items">
+</div>
+
+<div id="vulture" class="drag item5">
+    <img src="img/vulture.gif" class="items">
+</div>
+
+<div id= "friends" class="drag item5">
+    <img src="img/fish friends.png" class="items">
+</div>
+
+<!--sixthrow-->
+
+
+<div id= "goose" class="drag item6">
+    <img src="img/goose.png" class="items" >
+</div>
+
+<div id= "sun" class="drag item6">
+    <img src="img/sun.png" class="items">
+</div>
+
+<div class="drag item6">
+    <img src="img/rubber.png" class="items">
+</div>
+
+<div id="venus" class="drag item6">
+    <img src="img/venus.png" class="items">
+</div>
+
+<div id= "hand" class="drag item6">
+    <img src="img/hand.png" class="items">
+</div>
+
+<!--seventhrow-->
+
+
+<div id= "pina" class="drag item6">
+    <img src="img/pina.png" class="items" style="width: 140px; height: 140px;">
+</div>
+
+<div id= "paper" class="drag item6">
+    <img src="img/paper boat.gif" class="items">
+</div>
+
+<div class="drag item6">
+    <img src="img/dolphin.gif" class="items">
+</div>
+
+<div id="pool" class="drag item6">
+    <img src="img/pool.png" class="items">
+</div>
+
+<div id= "paint" class="drag item6">
+    <img src="img/paint.png" class="items">
+</div>
+
+<!--eighththrow-->
+
+
+<div id= "shroom" class="drag item6">
+    <img src="img/mushroom.png" class="items">
+</div>
+
+<div id= "star" class="drag item6">
+    <img src="img/star.png" class="items" style="width: 60px;
+    height: 50px;">
+</div>
+
+<div class="drag item6">
+    <img src="img/koi.png" class="items" style="width: 100px; height: 60px;">
+</div>
+
+<div id="fly" class="drag item6">
+    <img src="img/butterfly.png" class="items">
+</div>
+
+<div id= "gift" class="drag item6">
+    <img src="img/gift.png" class="items">
+</div>
+
+<!--ninthrow-->
+
+
+<div id= "balloon" class="drag" >
+    <img src="img/balloon.gif" class="items" style="width: 150px; height: 220px;">
+</div>
+
+<div id= "salamander" class="drag item6" >
+    <img src="img/salamander.png" class="items" style="width: 100px; height: 30px;">
+</div>
+
+<div class="drag item6">
+    <img src="img/flip.png" class="items" >
+</div>
+
+<div id="pickerelweed" class="drag item6">
+    <img src="img/pickerelweed.png" class="items">
+</div>
+
+<div id= "lily" class="drag item6">
+    <img src="img/lily.png" class="items" style="width: 155px; height: 95px;">
+</div>
+
+<!--tenthrow-->
+
+
+<div id= "flower" class="drag item6" >
+    <img src="img/flower.png" class="items" style="width: 100px; height: 80px;">
+</div>
+
+<div id= "straw" class="drag item6" >
+    <img src="img/straw.png" class="items" style="width: 200px; height: 200px;">
+</div>
+
+<div id= "potion" class="drag item6">
+    <img src="img/potion.png" class="items" style="width: 115px; height: 115px;">
+</div>
+
+<div id="towel" class="drag item6">
+    <img src="img/towel.png" class="items">
+</div>
+
+<div id= "fire" class="drag item6">
+    <img src="img/fire.png" class="items"> 
+</div>
+
+<!--tenthrow-->
+
+<div id= "leg" class="drag item6">
+    <img src="img/leg.png" class="items" style="width: 40px; height: 150px;"> 
+</div>
+
+<div id= "beach" class="drag item6">
+    <img src="img/beachball.png" class="items" style="width: 230px; height: 230px;"> 
+</div>
+
+<div id= "pineapple" class="drag item6">
+    <img src="img/pineapple.png" class="items" style="width: 200px; height: 200px;"> 
+</div>
+
+
+
+<!--
+<div class="scrollmenu firstrow">
+  
+  <div class="drag">
+    <img src="img/starfish.png" class="items" >
+</div>
+
+<div class="drag">
+    <img src="img/starfish.png" class="items">
+</div>
+
+<div class="drag">
+    <img src="img/starfish.png" class="items" >
+</div>
+
+-->
+
+</div>
 </body>
 
 
